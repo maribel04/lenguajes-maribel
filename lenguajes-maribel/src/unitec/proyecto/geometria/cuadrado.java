@@ -11,7 +11,13 @@ package unitec.proyecto.geometria;
  */
 public class cuadrado {
      private float lado;
-    
+     
+     public cuadrado(int lado){
+         this.lado=lado;
+     }
+    public cuadrado(){
+        
+    }
     float calcularArea(){
     
     float area=lado*lado;
